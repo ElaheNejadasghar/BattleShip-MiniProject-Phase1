@@ -28,7 +28,6 @@ public class BattleShip {
 
         placeShips(player1Grid);
         placeShips(player2Grid);
-
         System.out.print("1.Double player \n2.Single player \nChoose an option: ");
         int choice = scannerInt.nextInt();
         while(choice!=2 && choice!=1){
